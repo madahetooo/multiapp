@@ -55,7 +55,8 @@ public class DrawerActivity extends AppCompatActivity implements NavigationView.
     ImageView userPhoto;
     private GoogleSignInClient mSignInClient;
     private NavigationView navigationView;
-
+//comment
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

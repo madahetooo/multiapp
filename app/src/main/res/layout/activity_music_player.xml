@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".entertainment.MusicPlayer">
+
+
+    <ImageView
+        android:id="@+id/iv_justin"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_300sdp"
+        android:contentDescription="@string/justin"
+        android:src="@drawable/justin" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_justin"
+        android:layout_marginBottom="@dimen/_10sdp" />
+
+    <ImageView
+        android:id="@+id/iv_pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seekBar"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:padding="@dimen/_10sdp"
+        android:src="@drawable/pause" />
+
+    <ImageView
+        android:id="@+id/iv_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seekBar"
+        android:layout_toEndOf="@id/iv_pause"
+        android:padding="@dimen/_10sdp"
+        android:src="@drawable/play" />
+
+    <ImageView
+        android:id="@+id/iv_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seekBar"
+        android:layout_toEndOf="@id/iv_play"
+        android:padding="@dimen/_10sdp"
+        android:src="@drawable/stop" />
+
+</RelativeLayout>

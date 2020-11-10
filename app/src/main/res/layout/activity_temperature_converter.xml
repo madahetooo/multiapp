@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple">
+
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/purple"
+    android:orientation="vertical"
+    android:padding="@dimen/_20sdp"
+    tools:context=".tools.TemperatureConverterActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/temperature_converter_app"
+        android:textColor="@color/textColor"
+        android:textSize="@dimen/_20sdp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:contentDescription="@string/temperature_converter_image"
+        android:src="@drawable/tempconverter" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_celsius"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_weight="0.5"
+            android:background="@drawable/edit_texts"
+            android:gravity="center"
+            android:hint="@string/celsius"
+            android:inputType="numberDecimal"
+            android:padding="@dimen/_10sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:padding="@dimen/_10sdp"
+            android:text="@string/to"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/_20sdp" />
+
+        <EditText
+            android:id="@+id/et_fahrenheit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_weight="0.5"
+            android:background="@drawable/edit_texts"
+            android:gravity="center"
+            android:hint="@string/fahrenheit"
+            android:inputType="numberDecimal"
+            android:padding="@dimen/_10sdp" />
+
+
+    </LinearLayout>
+
+    <Button
+    android:id="@+id/btn_convert"
+    android:layout_width="@dimen/_100sdp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="@dimen/_20sdp"
+    android:background="@drawable/buttons"
+    android:text="@string/convert"
+    android:textColor="@color/textColor" />
+    <Button
+        android:id="@+id/btn_reset"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/buttons"
+        android:text="@string/reset"
+        android:textColor="@color/textColor" />
+
+
+
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,105 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.2"
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    aaptOptions {
+        cruncherEnabled = false
+    }
+
+    defaultConfig {
+        applicationId "com.yat.helloworld"
+        minSdkVersion 19
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+
+
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+
+
+    //design
+    //noinspection GradleCompatible
+
+    implementation "androidx.drawerlayout:drawerlayout:1.1.1"
+    implementation 'com.makeramen:roundedimageview:2.3.0'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+
+
+    // sdp library
+    implementation 'com.intuit.sdp:sdp-android:1.0.6'
+
+    //Maps
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
+    implementation 'com.google.android.gms:play-services-location:17.1.0'
+
+    //butterKnife
+    implementation 'com.jakewharton:butterknife:10.2.3'
+    implementation 'androidx.navigation:navigation-fragment:2.3.1'
+    implementation 'androidx.navigation:navigation-ui:2.3.1'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.2.0'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.3'
+
+    //ExoPlayer
+    implementation 'com.google.android.exoplayer:exoplayer:2.12.0'
+    implementation 'com.google.android.exoplayer:exoplayer-core:2.12.0'
+    implementation 'com.google.android.exoplayer:exoplayer-dash:2.12.0'
+    implementation 'com.google.android.exoplayer:exoplayer-ui:2.12.0'
+
+    //PDF Viewer
+    implementation 'com.github.barteksc:android-pdf-viewer:2.8.2'
+
+    //Firebase
+    implementation 'com.google.firebase:firebase-database:19.5.1' //firebase database
+    implementation 'com.google.firebase:firebase-auth:20.0.0'  // firebase authentication
+    implementation 'com.firebaseui:firebase-ui-database:6.4.0'  //firebase UI databse
+    // Import the BoM for the Firebase platform
+    implementation platform('com.google.firebase:firebase-bom:26.0.0')
+
+    // Declare the dependency for the Cloud Storage library
+    // When using the BoM, you don't specify versions in Firebase library dependencies
+    implementation 'com.google.firebase:firebase-storage'
+
+    //multiDex
+    implementation 'com.android.support:multidex:1.0.3'
+
+    //Google Sign-in
+    implementation 'com.google.android.gms:play-services-auth:18.1.0'
+
+    //Glide
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+
+    //Design
+
+    implementation 'com.google.android.material:material:1.2.1'
+
+
+    testImplementation 'junit:junit:4.13.1'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+}
+

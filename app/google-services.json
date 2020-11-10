@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "44935063175",
+    "firebase_url": "https://multiapp-ee4da.firebaseio.com",
+    "project_id": "multiapp-ee4da",
+    "storage_bucket": "multiapp-ee4da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:44935063175:android:cd92c10f0796b480ecfa22",
+        "android_client_info": {
+          "package_name": "com.yat.helloworld"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "44935063175-o6pe712tf8p73ras6ok2ru1pnp604bf7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8YpZvXNAyR-VLr69UuGM6GWobCDqPqnc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "44935063175-o6pe712tf8p73ras6ok2ru1pnp604bf7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

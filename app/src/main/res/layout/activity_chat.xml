@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/_16sdp"
+    android:background="@color/purple"
+    tools:context=".entertainment.Chat">
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn_sendPhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/messageRecyclerView"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:contentDescription="@string/sending_message"
+        android:padding="@dimen/_5sdp"
+        android:src="@drawable/baseline_camera_alt_white_24"
+        tools:ignore="MissingClass,RelativeOverlap" />
+
+    <EditText
+        android:id="@+id/et_Message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/btn_sendMessage"
+        android:layout_toEndOf="@+id/btn_sendPhoto"
+        android:autofillHints=""
+        android:padding="@dimen/_15sdp"
+        android:background="@drawable/edit_texts"
+        android:gravity="center"
+        android:hint="@string/enter_your_message"
+        android:inputType="text"
+        android:textColor="#000" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn_sendMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/messageRecyclerView"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:background="@drawable/buttons"
+        android:contentDescription="@string/sending_message"
+        android:onClick="sendMessage"
+        android:padding="@dimen/_5sdp"
+        android:src="@android:drawable/ic_menu_send"
+        tools:ignore="MissingClass,RelativeOverlap" />
+
+<!--    <ListView-->
+<!--        android:id="@+id/lv_Chat"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_above="@id/et_Message"-->
+<!--        android:divider="@android:color/transparent"-->
+<!--        android:dividerHeight="16dp" />-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/messageRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/et_Message"/>
+
+</RelativeLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:title="@string/entertainment">
+        <menu>
+
+            <item
+                android:id="@+id/item_chat"
+                android:icon="@drawable/ic_baseline_chat_24"
+                android:title="@string/chat_app" />
+            <item
+                android:id="@+id/item_connect3"
+                android:icon="@drawable/ic_baseline_videogame_asset_24"
+                android:title="@string/connect_3_game" />
+            <item
+                android:id="@+id/item_media_app"
+                android:icon="@drawable/ic_baseline_library_music_24"
+                android:title="@string/video_player" />
+            <item
+                android:id="@+id/item_music_app"
+                android:icon="@drawable/ic_baseline_library_music_24"
+                android:title="@string/music_player" />
+            <item
+                android:id="@+id/item_restaurant"
+                android:icon="@drawable/ic_baseline_restaurant_24"
+                android:title="@string/restaurant" />
+            <item
+                android:id="@+id/item_dog_or_cat"
+                android:icon="@drawable/rat"
+                android:title="@string/dog_or_cat_app" />
+
+            <item
+                android:id="@+id/item_random_highest_mountains"
+                android:icon="@drawable/mountains"
+                android:title="@string/random_highest_mountains_app" />
+
+
+
+        </menu>
+    </item>
+
+    <item android:title="@string/tools">
+        <menu>
+            <item
+                android:id="@+id/item_calculator"
+                android:icon="@drawable/calculate_logo_black"
+                android:title="@string/calculator_app" />
+            <item
+                android:id="@+id/item_temperature_converter"
+                android:icon="@drawable/convertarrow"
+                android:title="@string/temperature_converter" />
+            <item
+                android:id="@+id/item_yat_group"
+                android:icon="@drawable/ic_baseline_groups_24"
+                android:title="@string/yat_group" />
+            <item
+                android:id="@+id/item_passing_bio_data"
+                android:icon="@drawable/ic_baseline_data_usage_24"
+                android:title="@string/bio_details_app" />
+
+            <item
+                android:id="@+id/item_javaTpoint"
+                android:icon="@drawable/ic_baseline_web_24"
+                android:title="@string/javatpoint_website" />
+            <item
+                android:id="@+id/item_google_maps"
+                android:icon="@drawable/ic_baseline_map_24"
+                android:title="@string/get_current_location_app" />
+
+            <item
+                android:id="@+id/item_pdf_view"
+                android:icon="@drawable/ic_baseline_picture_as_pdf_24"
+                android:title="@string/pdf_viewer" />
+
+
+
+
+        </menu>
+    </item>
+    <item
+        android:id="@+id/log_out"
+        android:icon="@drawable/ic_baseline_exit_to_app_24"
+        android:title="@string/log_out" />
+
+</menu>

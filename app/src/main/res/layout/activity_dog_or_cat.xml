@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        android:padding="@dimen/_20sdp"
+        tools:context=".entertainment.DogOrCatActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="@string/when_talking_to_someone_do_you_maintain_eye_contact"
+            android:textColor="@color/background"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/radio_group1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radio_never"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:text="@string/never"
+
+                android:textColor="@color/background" />
+
+            <RadioButton
+                android:id="@+id/radio_sometiems"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:text="@string/sometimes"
+                android:textColor="@color/background" />
+
+            <RadioButton
+                android:id="@+id/radio_always"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:text="@string/always"
+                android:textColor="@color/background" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/buttons" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="@string/how_often_do_you_hug_people"
+            android:textColor="@color/background"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/radio_group2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radio_sometiems2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:text="@string/sometimes"
+
+                android:textColor="@color/background" />
+
+            <RadioButton
+                android:id="@+id/radio_all_the_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:text="@string/all_the_time"
+                android:textColor="@color/background" />
+
+            <RadioButton
+                android:id="@+id/radio_maybe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/maybe"
+                android:textColor="@color/background" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/buttons" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="@string/how_do_you_feel_about_tv"
+            android:textColor="@color/background"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/radio_group3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radio_neverWatchTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:text="@string/never_watch_tv"
+                android:textColor="@color/background" />
+
+            <RadioButton
+                android:id="@+id/radio_not_too_much"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:text="@string/not_too_much"
+                android:textColor="@color/background" />
+
+            <RadioButton
+                android:id="@+id/radio_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:text="@string/no"
+                android:textColor="@color/background" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/buttons" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="@string/how_many_times_do_you_tell_somebody_you_love_them"
+            android:textColor="@color/background"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/radio_group4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radio_daily"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:text="@string/daily"
+                android:textColor="@color/background" />
+
+            <RadioButton
+                android:id="@+id/radio_occasionally"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:text="@string/occasionally"
+                android:textColor="@color/background" />
+
+            <RadioButton
+                android:id="@+id/radio_from_time_to_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:text="@string/from_time_to_time"
+                android:textColor="@color/background" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/buttons" />
+
+
+        <Button
+            android:id="@+id/btn_get_result"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:background="@drawable/buttons"
+            android:text="@string/get_result"
+            android:textColor="@color/background" />
+
+        <TextView
+            android:id="@+id/tv_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="@string/your_result_will_appear_here"
+            android:textColor="@color/background" />
+
+    </LinearLayout>
+</ScrollView>

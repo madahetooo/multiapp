@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_150sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:padding="@dimen/_20sdp">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:layout_width="@dimen/_50sdp"
+        android:id="@+id/userPhoto"
+        android:src="@drawable/multiapplogo"
+        app:riv_corner_radius="@dimen/_50sdp"
+        app:riv_border_width="@dimen/_2sdp"
+        app:riv_border_color="@color/background"
+        android:layout_height="@dimen/_50sdp" />
+
+
+    <TextView
+        android:id="@+id/txUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:text="@string/username"
+        android:textColor="#fff"
+        android:textSize="@dimen/_20sdp" />
+
+    <TextView
+        android:id="@+id/txEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:text="@string/emailaddress"
+        android:textColor="#fff"
+        android:textSize="@dimen/_10sdp" />
+
+</LinearLayout>

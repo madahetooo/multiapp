@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:padding="@dimen/_20sdp"
+    tools:context=".tools.PassingBioData">
+
+    <ImageView
+        android:id="@+id/iv_nagip"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_150sdp"
+        android:src="@drawable/nagip"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/nagip_mahfouz"/>
+
+    <TextView
+        android:id="@+id/tx_nagipMahfouz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nagip"
+        android:textColor="@color/background"
+        android:textSize="@dimen/_20sdp"
+        android:layout_below="@id/iv_nagip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_10sdp"/>
+
+
+    <ImageView
+        android:id="@+id/iv_taha"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_150sdp"
+        android:src="@drawable/taha"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tx_nagipMahfouz"
+        android:contentDescription="@string/nagip_mahfouz"/>
+
+    <TextView
+        android:id="@+id/tx_tahaHussien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/taha_hussien"
+        android:textColor="@color/background"
+        android:textSize="@dimen/_20sdp"
+        android:layout_below="@id/iv_taha"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_10sdp"/>
+
+</RelativeLayout>

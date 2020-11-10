@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple">
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/purple"
+    android:orientation="vertical"
+    android:padding="@dimen/_20sdp"
+    tools:context=".entertainment.Restaurant">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/what_do_you_want_to_order"
+        android:textColor="@color/textColor"
+        android:textSize="@dimen/_20sdp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/buttons" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+
+
+            <CheckBox
+                android:id="@+id/chk_anise"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:checked="false"
+                android:text="@string/anise"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/_15sdp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_40sdp"
+                android:text="@string/_3"
+                android:textColor="@color/textColor" />
+
+            <CheckBox
+                android:id="@+id/chk_tea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:checked="false"
+                android:text="@string/tea"
+
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/_15sdp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_40sdp"
+                android:text="@string/_5"
+                android:textColor="@color/textColor" />
+
+            <CheckBox
+                android:id="@+id/chk_pepsi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:checked="false"
+                android:text="@string/pepsi"
+                android:textColor="@color/textColor"
+
+                android:textSize="@dimen/_15sdp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_40sdp"
+                android:text="@string/_8"
+                android:textColor="@color/textColor" />
+
+            <CheckBox
+                android:id="@+id/chk_coffe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:checked="false"
+                android:text="@string/coffee"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/_15sdp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_40sdp"
+                android:text="@string/_6"
+                android:textColor="@color/textColor" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/chk_pizza"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:checked="false"
+                android:text="@string/pizza"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/_15sdp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_40sdp"
+                android:text="@string/_80"
+                android:textColor="@color/textColor" />
+
+            <CheckBox
+                android:id="@+id/chk_burger"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:checked="false"
+                android:text="@string/burger"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/_15sdp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_40sdp"
+                android:text="@string/_60"
+                android:textColor="@color/textColor" />
+
+            <CheckBox
+                android:id="@+id/chk_chicken"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:checked="false"
+                android:text="@string/chicken"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/_15sdp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_40sdp"
+                android:text="@string/_50"
+                android:textColor="@color/textColor" />
+
+            <CheckBox
+                android:id="@+id/chk_vegetables"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:checked="false"
+                android:text="@string/vegetables"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/_15sdp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_40sdp"
+                android:text="@string/_30"
+                android:textColor="@color/textColor" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_orderNow"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:background="@drawable/buttons"
+        android:text="@string/order_now"
+        android:textColor="@color/textColor" />
+
+    <TextView
+        android:id="@+id/tv_invoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:text="@string/invoice"
+        android:textColor="@color/textColor"
+        android:textSize="@dimen/_15sdp" />
+
+
+</LinearLayout>
+</ScrollView>

@@ -11,7 +11,7 @@ With this app, you can log in with a Google Account or register a new account  a
 3. Connect 3 Game: you can play connect 3 games with your friends.
 4. Media Players: You can play and enjoy some music and videos and more.
 
-<img width="200" heigth="400" alt="Login Screen" src="https://user-images.githubusercontent.com/28203059/98702279-dcad5600-2382-11eb-9705-48b7e8446e11.png"><img width="200" heigth="400" alt="Chat Page" src="https://user-images.githubusercontent.com/28203059/98700549-f8aff800-2380-11eb-83d6-c14028c40281.png"><img width="200" heigth="400" alt="Connect 3 Game Screen" src="https://user-images.githubusercontent.com/28203059/98700733-30b73b00-2381-11eb-96cb-fb5c676bc382.png"><img width="200"  height="400" alt="Media App Screen" src="https://user-images.githubusercontent.com/28203059/98700977-76740380-2381-11eb-891d-ebf0c91b51a3.png">
+<img width="200" heigth="400" alt="Login Screen" src="https://user-images.githubusercontent.com/28203059/98702279-dcad5600-2382-11eb-9705-48b7e8446e11.png"><img width="200" heigth="400" alt="Chat Page" src="https://user-images.githubusercontent.com/28203059/98700549-f8aff800-2380-11eb-83d6-c14028c40281.png"><img width="200" heigth="400" alt="Connect 3 Game Screen" src="https://user-images.githubusercontent.com/28203059/98700733-30b73b00-2381-11eb-96cb-fb5c676bc382.png"><img width="200"  height="420" alt="Media App Screen" src="https://user-images.githubusercontent.com/28203059/98700977-76740380-2381-11eb-891d-ebf0c91b51a3.png">
 
 ***
 
@@ -22,7 +22,7 @@ With this app, you can log in with a Google Account or register a new account  a
 4. Google Maps: You can get your current location using Google Maps.
 5. Mobile PDF: You can see the basic and fundamental topics in mobile development.
 
-<img width="200" height="400" alt="Calculator Screen" src="https://user-images.githubusercontent.com/28203059/98701414-eda99780-2381-11eb-9cde-4577ce7b7f95.png"><img width="200" heigth="400" alt="Java T Point Screen" src="https://user-images.githubusercontent.com/28203059/98701595-20539000-2382-11eb-8bbd-8d0e68e70b73.png"><img width="200" height="400" alt="Temperature Converter Screen" src="https://user-images.githubusercontent.com/28203059/98701702-40834f00-2382-11eb-9897-6b3d5cc20404.png"><img width="200" height="400" alt="Google Maps Screen" src="https://user-images.githubusercontent.com/28203059/98701809-5abd2d00-2382-11eb-8e02-9d4a38eaf0b5.png"><img width="200" heigth="400" alt="Mobile Track PDF Screen" src="https://user-images.githubusercontent.com/28203059/98702106-b12a6b80-2382-11eb-9db8-eb80324163a7.png">
+<img width="200" height="420" alt="Calculator Screen" src="https://user-images.githubusercontent.com/28203059/98701414-eda99780-2381-11eb-9cde-4577ce7b7f95.png"><img width="200" heigth="420" alt="Java T Point Screen" src="https://user-images.githubusercontent.com/28203059/98701595-20539000-2382-11eb-8bbd-8d0e68e70b73.png"><img width="200" height="420" alt="Temperature Converter Screen" src="https://user-images.githubusercontent.com/28203059/98701702-40834f00-2382-11eb-9897-6b3d5cc20404.png"><img width="200" height="420" alt="Google Maps Screen" src="https://user-images.githubusercontent.com/28203059/98701809-5abd2d00-2382-11eb-8e02-9d4a38eaf0b5.png"><img width="200" heigth="420" alt="Mobile Track PDF Screen" src="https://user-images.githubusercontent.com/28203059/98702106-b12a6b80-2382-11eb-9db8-eb80324163a7.png">
 
 ---
 

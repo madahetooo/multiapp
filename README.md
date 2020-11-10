@@ -7,44 +7,22 @@ We target everyone who want to learn something new or chat with other or use som
 With this app, you can log in with a Google Account or register a new account  and also you can play and use some useful tools like : 
 ###  Entertainment side: 
 1. Login Screen: you can login with email and password, or sign in with Google account:
-
-<img width="200" heigth="400" alt="Login Screen" src="https://user-images.githubusercontent.com/28203059/98702279-dcad5600-2382-11eb-9705-48b7e8446e11.png">
-
 2. Chat App: you can chat with your friends through this app in realtime.
-
-<img width="200" heigth="400" alt="Chat Page" src="https://user-images.githubusercontent.com/28203059/98700549-f8aff800-2380-11eb-83d6-c14028c40281.png">
-
 3. Connect 3 Game: you can play connect 3 games with your friends.
-
-<img width="200" heigth="400" alt="Connect 3 Game Screen" src="https://user-images.githubusercontent.com/28203059/98700733-30b73b00-2381-11eb-96cb-fb5c676bc382.png">
-
 4. Media Players: You can play and enjoy some music and videos and more.
 
-<img width="200"  height="400" alt="Media App Screen" src="https://user-images.githubusercontent.com/28203059/98700977-76740380-2381-11eb-891d-ebf0c91b51a3.png">
+<img width="200" heigth="400" alt="Login Screen" src="https://user-images.githubusercontent.com/28203059/98702279-dcad5600-2382-11eb-9705-48b7e8446e11.png"><img width="200" heigth="400" alt="Chat Page" src="https://user-images.githubusercontent.com/28203059/98700549-f8aff800-2380-11eb-83d6-c14028c40281.png"><img width="200" heigth="400" alt="Connect 3 Game Screen" src="https://user-images.githubusercontent.com/28203059/98700733-30b73b00-2381-11eb-96cb-fb5c676bc382.png"><img width="200"  height="400" alt="Media App Screen" src="https://user-images.githubusercontent.com/28203059/98700977-76740380-2381-11eb-891d-ebf0c91b51a3.png">
 
 ***
 
 ### Tools side: 
 1. Calculator: You can use a calculator and make simple operations.
-
-<img width="200" height="400" alt="Calculator Screen" src="https://user-images.githubusercontent.com/28203059/98701414-eda99780-2381-11eb-9cde-4577ce7b7f95.png">
-
-
 2. JavaTpoint Website: You can view the Java T Point website and study more in the programming language in tech fields.
-
-<img width="200" heigth="400" alt="Java T Point Screen" src="https://user-images.githubusercontent.com/28203059/98701595-20539000-2382-11eb-8bbd-8d0e68e70b73.png">
-
 3. Temperature Converter: You can convert the degrees from celsius and fahrenhiet and the oppisite.
-
-<img width="200" height="400" alt="Temperature Converter Screen" src="https://user-images.githubusercontent.com/28203059/98701702-40834f00-2382-11eb-9897-6b3d5cc20404.png">
-
 4. Google Maps: You can get your current location using Google Maps.
-
-<img width="200" height="400" alt="Google Maps Screen" src="https://user-images.githubusercontent.com/28203059/98701809-5abd2d00-2382-11eb-8e02-9d4a38eaf0b5.png">
-
 5. Mobile PDF: You can see the basic and fundamental topics in mobile development.
 
-<img width="200" heigth="400" alt="Mobile Track PDF Screen" src="https://user-images.githubusercontent.com/28203059/98702106-b12a6b80-2382-11eb-9db8-eb80324163a7.png">
+<img width="200" height="400" alt="Calculator Screen" src="https://user-images.githubusercontent.com/28203059/98701414-eda99780-2381-11eb-9cde-4577ce7b7f95.png"><img width="200" heigth="400" alt="Java T Point Screen" src="https://user-images.githubusercontent.com/28203059/98701595-20539000-2382-11eb-8bbd-8d0e68e70b73.png"><img width="200" height="400" alt="Temperature Converter Screen" src="https://user-images.githubusercontent.com/28203059/98701702-40834f00-2382-11eb-9897-6b3d5cc20404.png"><img width="200" height="400" alt="Google Maps Screen" src="https://user-images.githubusercontent.com/28203059/98701809-5abd2d00-2382-11eb-8e02-9d4a38eaf0b5.png"><img width="200" heigth="400" alt="Mobile Track PDF Screen" src="https://user-images.githubusercontent.com/28203059/98702106-b12a6b80-2382-11eb-9db8-eb80324163a7.png">
 
 ---
 

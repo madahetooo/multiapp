@@ -7,11 +7,13 @@ We target everyone who want to learn something new or chat with other or use som
 With this app, you can log in with a Google Account or register a new account  and also you can play and use some useful tools like : 
 ###  Entertainment side: 
 1. Login Screen: you can login with email and password, or sign in with Google account:
-2. Chat App: you can chat with your friends through this app in realtime.
-3. Connect 3 Game: you can play connect 3 games with your friends.
-4. Media Players: You can play and enjoy some music and videos and more.
+2. Registration Screen : You can register a new account and join in with it later.
+3. Chat App: you can chat with your friends through this app in realtime.
+4. Connect 3 Game: you can play connect 3 games with your friends.
+5. Media Players: You can play and enjoy some music and videos and more.
 
-<img width="200" heigth="400" alt="Login Screen" src="https://user-images.githubusercontent.com/28203059/98702279-dcad5600-2382-11eb-9705-48b7e8446e11.png"><img width="200" heigth="400" alt="Chat Page" src="https://user-images.githubusercontent.com/28203059/98700549-f8aff800-2380-11eb-83d6-c14028c40281.png"><img width="200" heigth="400" alt="Connect 3 Game Screen" src="https://user-images.githubusercontent.com/28203059/98700733-30b73b00-2381-11eb-96cb-fb5c676bc382.png"><img width="200"  height="420" alt="Media App Screen" src="https://user-images.githubusercontent.com/28203059/98700977-76740380-2381-11eb-891d-ebf0c91b51a3.png">
+<img width="200" height="420" alt="Registration Screen" src="https://user-images.githubusercontent.com/28203059/98705450-66aaee00-2386-11eb-961e-b394d325c597.png"><img width="200" heigth="400" alt="Login Screen" src="https://user-images.githubusercontent.com/28203059/98702279-dcad5600-2382-11eb-9705-48b7e8446e11.png"><img width="200" heigth="400" alt="Chat Page" src="https://user-images.githubusercontent.com/28203059/98700549-f8aff800-2380-11eb-83d6-c14028c40281.png"><img width="200" heigth="400" alt="Connect 3 Game Screen" src="https://user-images.githubusercontent.com/28203059/98700733-30b73b00-2381-11eb-96cb-fb5c676bc382.png"><img width="200"  height="420" alt="Media App Screen" src="https://user-images.githubusercontent.com/28203059/98700977-76740380-2381-11eb-891d-ebf0c91b51a3.png">
+
 
 ***
 

@@ -65,6 +65,8 @@ With this app, you can log in with a Google Account or register a new account  a
 # Gradle versions i used :
 
 ```
+dependecies {
+
  implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
 
@@ -133,5 +135,10 @@ With this app, you can log in with a Google Account or register a new account  a
     //Design
 
     implementation 'com.google.android.material:material:1.2.1'
-
+    
+    testImplementation 'junit:junit:4.13.1'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    
+}
 ```
